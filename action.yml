@@ -5,6 +5,9 @@ branding:
   icon: upload-cloud
   color: green
 inputs:
+  github_user:
+    description: 'user for the repo. '
+    required: true
   github_token:
     description: 'Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}'
     required: true
